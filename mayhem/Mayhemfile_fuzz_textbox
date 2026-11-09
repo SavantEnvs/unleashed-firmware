@@ -1,0 +1,9 @@
+project: savantenvs/unleashed-firmware
+target: fuzz_textbox-mined-0a48658
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_textbox-mined-0a48658/testsuite
+cmds:
+  - cmd: /mayhem/build/fuzz_textbox
+    libfuzzer: true
+    timeout: 10
