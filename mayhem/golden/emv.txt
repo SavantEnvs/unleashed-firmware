@@ -1,0 +1,12 @@
+aid=A0000000041010
+label=MASTERCARD
+priority=1
+pdol=9F02069F3704
+aip=1980
+afl=08010100
+pan=4111111111111111
+expiry=2812
+name=VISA/TEST
+last_online_atc=42
+pin_try_counter=3
+quiet_pan_len=0

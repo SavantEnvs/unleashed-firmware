@@ -1,0 +1,9 @@
+project: savantenvs/unleashed-firmware
+target: fuzz_emv-mined-e67a15f
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_emv-mined-e67a15f/testsuite
+cmds:
+  - cmd: /mayhem/build/fuzz_emv
+    libfuzzer: true
+    timeout: 10
