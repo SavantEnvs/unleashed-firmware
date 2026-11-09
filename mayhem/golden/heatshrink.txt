@@ -1,0 +1,5 @@
+short: 5 -> 6 b4596d96cb78 roundtrip=ok
+repeat: 30 -> 7 b0d8ac602f0150 roundtrip=ok
+flipper: 46 -> 20 b35b2d370b8596e52000efbd596e56f008a02c60 roundtrip=ok
+zeros: 48 -> 8 b083838383838300 roundtrip=ok
+bad=0

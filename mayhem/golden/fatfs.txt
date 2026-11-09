@@ -1,0 +1,16 @@
+== FAT ==
+D dir_one 0
+F A_Rather_Long_File_Name_For_LFN.sub 360
+hello.txt: 14 bytes: hello flipper
+long.sub@136: ine 015
+ size=360
+fs_type=1 csize=2
+after unlink: stat=4
+== exFAT ==
+D dir_one 0
+F A_Rather_Long_File_Name_For_LFN.sub 360
+hello.txt: 14 bytes: hello flipper
+long.sub@136: ine 015
+ size=360
+fs_type=4 csize=8
+after unlink: stat=4

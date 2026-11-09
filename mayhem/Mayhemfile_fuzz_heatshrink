@@ -1,0 +1,9 @@
+project: savantenvs/unleashed-firmware
+target: fuzz_heatshrink
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_heatshrink/testsuite
+cmds:
+  - cmd: /mayhem/build/fuzz_heatshrink
+    libfuzzer: true
+    timeout: 10

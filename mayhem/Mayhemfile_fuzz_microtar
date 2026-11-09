@@ -1,0 +1,9 @@
+project: savantenvs/unleashed-firmware
+target: fuzz_microtar
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_microtar/testsuite
+cmds:
+  - cmd: /mayhem/build/fuzz_microtar
+    libfuzzer: true
+    timeout: 10

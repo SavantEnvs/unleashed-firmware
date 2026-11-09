@@ -1,0 +1,13 @@
+mkdir=0
+wh1=0
+wd1=13
+wh2=0
+wd2=4
+fin=0
+size=3584 chksum=005225
+5 dir 0 ''
+0 dir/hello.txt 13 'hello flipper'
+0 flipper.txt 4 'zero'
+foreach=0
+find=0
+find_missing=-9
